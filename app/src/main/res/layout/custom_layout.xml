@@ -55,6 +55,17 @@
             android:gravity="center"
             />
 
+        <RadioButton
+            android:id="@+id/rb8"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:button="@null"
+            android:background="@drawable/aa"
+            android:text=""
+            android:gravity="center"
+            />
+
     </RadioGroup>
 
     <RadioGroup
@@ -108,6 +119,17 @@
             android:gravity="center"
             />
 
+        <RadioButton
+            android:id="@+id/rb9"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:button="@null"
+            android:background="@drawable/aa"
+            android:text=""
+            android:gravity="center"
+            />
+
     </RadioGroup>
 
     <Button
@@ -117,6 +139,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="获取选中数据"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开第二个界面"
         />
 
 </LinearLayout>

@@ -3,7 +3,6 @@ package com.meng.demo2;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
@@ -44,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.content,new Fragment1()).commit();
+//        ft.replace(R.id.content,new Fragment1()).commit();
+//        ft.replace(R.id.content,new Fragment2()).commit();
+        ft.replace(R.id.content,new Fragment3()).commit();
     }
 
 }
